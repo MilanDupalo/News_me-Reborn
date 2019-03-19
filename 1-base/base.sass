@@ -1,0 +1,125 @@
+body
+  background: snow
+  width: 100%
+  height: 100vh
+  margin: 0px
+  padding: 0px
+
+#top_header_target
+  position: absolute
+  top: 0
+
+.sign-in-login
+    float: right
+    padding: 10px 100px 10px 0px
+
+.logo
+  padding: 10px 0 10px 100px
+.logo h1
+        margin: 0
+        color: white
+
+.top-news
+  margin-top: 20px
+  height: 339px
+  background: url('img/1.jpg')
+  background-position: center
+  background-size: cover
+  position: relative
+
+.banner-top-news
+    width: 100px
+    height: 25px
+    background: rgba(0, 0, 0, 0.84)
+    text-align: center
+    color: white
+    position: absolute
+    margin-top: -14px
+    margin-left: -10px
+    font-weight: bold
+
+.top-news-footer
+  position: absolute
+  width: 100%
+  bottom: 0
+  height: 25%
+  background: rgba(black, 0.5)
+
+.top-news-footer p
+  color: white
+  padding: 10px
+  font-weight: 600
+  font-size: 1.2em
+
+.box
+  text-align: center
+  overflow-y: scroll
+  height: 66vh
+  &::-webkit-scrollbar-thumb
+    background: $second-colour
+    border-radius: 2px
+  &::-webkit-scrollbar-track
+    border-radius: 4px
+    background: #f1f1f1
+  &::-webkit-scrollbar
+    width: 10px
+    border-radius: 5px
+
+
+
+.form-control
+  background: $primary-colour
+  border: 2px solid $second-colour
+  outline: none
+  border-top-left-radius: 10px
+  border-bottom-left-radius: 10px
+  &:hover
+    outline: none
+  &:focus
+    background-color: $primary-colour
+    color: white
+    outline: none
+    box-shadow: 0 0 15px $second-colour
+    border-color: $second-colour
+  &:active
+    outline: none
+  &:visited
+    outline: none
+
+.input-group
+  padding-top: 20px
+
+.category
+  font-weight: 600
+  @media (min-width: 768px) and (max-width: 990px)
+    display: none
+
+.similar-box
+  margin-top: 20px
+
+.similar-title h5
+  display: flex
+  align-items: center
+  color: grey
+  margin: 0
+
+.similar-title h5 span
+  content: ""
+  flex: 1 1 auto
+  margin: 0 10px
+  border-top: 2px solid $second-colour
+
+.another-title
+  margin-top: 10px
+
+.another-title h5
+  display: flex
+  align-items: center
+  color: grey
+  margin: 0
+
+.another-title h5 span
+  content: ""
+  flex: 1 1 auto
+  margin: 0 10px
+  border-top: 2px solid $second-colour
